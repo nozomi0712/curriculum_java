@@ -25,12 +25,14 @@ public class Task1_4 {
       String name = "alice";
       String pass = "pass";
 
+      final String input_name = "alice";
+      final String input_pass = "pass";
       
-      if (name.equals("alice") && pass.equals("pass")) {
+      if (name.equals(input_name) && pass.equals(input_pass)) {
         System.out.println(CONST_MSG_SUCCESS);
-      } else if (name.equals("alice")) {
+      } else if (name.equals(input_name)) {
         System.out.println(CONST_MSG_ERROR_PASS);
-      } else if (pass.equals("pass")) {
+      } else if (pass.equals(input_pass)) {
         System.out.println(CONST_MSG_ERROR_NAME);
       } else {
         System.out.println(CONST_MSG_ERROR_INPUT);
