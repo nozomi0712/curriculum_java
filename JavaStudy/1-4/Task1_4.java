@@ -22,17 +22,19 @@ public class Task1_4 {
     public static void main(String[] args) {
       // 以下の変数「name（名前）」「pass（パスワード）」を使用して、②〜⑤の条件を満たす処理を記述してください。
       // 名前とパスワードは画面からの入力値だと想定してみましょう。
-      String name = "alice";
-      String pass = "pass";
 
       final String input_name = "alice";
       final String input_pass = "pass";
+
+      String name = "alice";
+      String pass = "pass";
+
       
-      if (name.equals(input_name) && pass.equals(input_pass)) {
+      if (input_name.equals(name) && input_pass.equals(pass)) {
         System.out.println(CONST_MSG_SUCCESS);
-      } else if (name.equals(input_name)) {
+      } else if (input_name.equals(name)) {
         System.out.println(CONST_MSG_ERROR_PASS);
-      } else if (pass.equals(input_pass)) {
+      } else if (input_pass.equals(pass)) {
         System.out.println(CONST_MSG_ERROR_NAME);
       } else {
         System.out.println(CONST_MSG_ERROR_INPUT);
