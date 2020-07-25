@@ -27,7 +27,7 @@ public class Main {
 	public static String getName(String firstName, String lastName) {
 		return firstName + lastName;
 	}
-	
+
 	//奇数の判定を行う。
 	public static void isOdd(int num) {
 		if (num % 2 != 0) {
