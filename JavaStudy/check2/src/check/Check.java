@@ -1,8 +1,6 @@
 package check;
 
 import constants.Constants;
-
-
 public class Check {
 
 //---問1---
