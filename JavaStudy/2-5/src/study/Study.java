@@ -23,7 +23,7 @@ public class Study {
     	shohinList.add(SHOP_SHOHIN_01);
     	shohinList.add(SHOP_SHOHIN_02);
     	shohinList.add(SHOP_SHOHIN_03);
-    		
+
         // ② 以下の「shopMap.put(shohinList.get(1), 180);」の処理について、コメントを記述してください。
         /*
          * [Map型の変数『shopMap』に”キー：牛乳”、”値：180”の連想配列を入れている]
@@ -36,8 +36,8 @@ public class Study {
         shopMap.put(shohinList.get(3), 100);
         // ③ カリキュラムを参考に拡張for文を使って、課題の画像と同じ表示になるよう記述してください。
         // 「shohinList」と「shopMap」が保持する値を上手く利用しましょう。
-        for (int i = 0; i < shopMap.size(); i++) {
-        	System.out.println(shohinList.get(i) + "=" + shopMap.get(shohinList.get(i)) + "円になります！");
+        for (String list : shohinList) {
+        	System.out.println(list + "=" + shopMap.get(list) + "円になります！");
         }
     }
 }
