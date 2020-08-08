@@ -1,0 +1,31 @@
+.header {
+  height: 100px;
+  width: 400px;
+  background-color: #141f40;
+}
+
+.left {
+  height: 250px;
+  width: 150px;
+  background-color: #80bfa8;
+  float: left;
+}
+
+.right {
+  height: 250px;
+  width: 250px;
+  background-color: #8c2727;
+  float: left;
+}
+
+.clearfix::after {
+  content: ''; 
+  display: block; 
+  clear: both;
+}
+
+.fooder {
+  height: 100px;
+  width: 400px;
+  background-color: #d98d30;
+}
