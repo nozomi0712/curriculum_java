@@ -1,0 +1,40 @@
+.heigh {
+  width: 600px;
+  height: 150px;
+  background-color: #FFFF00;
+}
+.contents_wrapper {
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+}
+.content1 {
+  width: 200px;
+  height: 150px;
+  background-color: #33FFFF;
+}
+.content2 {
+  width: 200px;
+  height: 150px;
+  background-color: #FF0000;
+}
+.content3 {
+  width: 200px;
+  height: 150px;
+  background-color: #0000FF;
+}
+.content4 {
+  width: 450px;
+  height: 150px;
+  background-color: #00FF00;
+}
+.content5 {
+  width: 150px;
+  height: 150px;
+  background-color: #FF00FF;
+}
+.under {
+  width: 600px;
+  height: 150px;
+  background-color: #33FFFF;
+}

@@ -1,0 +1,45 @@
+.contents_wrapper {
+  width: 350px;
+  display: flex;
+  flex-direction: row;
+}
+.content1{
+  width: 150px;
+  height: 100px;
+  background-color: #FFFF66;
+}
+.content2{
+  width: 200px;
+  height: 100px;
+  background-color: #666666;
+}
+.content3{
+  width: 150px;
+  height: 150px;
+  background-color: #FF3333;
+}
+.content4{
+  width: 100px;
+  height: 150px;
+  background-color: #3366FF;
+}
+.content5{
+  width: 100px;
+  height: 150px;
+  background-color: #669933;
+}
+.content6{
+  width: 150px;
+  height: 100px;
+  background-color: #FF9966;
+}
+.content7{
+  width: 100px;
+  height: 100px;
+  background-color: #FFFFcc;
+}
+.content8{
+  width: 100px;
+  height: 100px;
+  background-color: #330066;
+}
