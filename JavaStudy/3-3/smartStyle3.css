@@ -1,0 +1,48 @@
+@media screen and (max-width:479px) {
+  .header {
+    width: 200px;
+    height: 200px;
+  }
+  .header_contents_wrapper {
+    width: 60px;
+    height: 160px;
+    margin: 20px 70px;
+    background-color:white;
+  }
+  .header_content:first-child {
+    margin: 10px;
+  }
+  .header_content {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px 10px 10px;
+    background-color: #a9004b;
+  }
+  .main {
+    width: 200px;
+  }
+  .left {
+    width: 200px;
+    background-color: #80bfa8;
+  }
+  .right {
+    width: 200px;
+    height: 210px;
+    background-color: #8c2727;
+  }
+  .right_cotent:first-child {
+    margin: 20px 30px 10px 30px;
+  }
+  .right_cotent {
+    width: 140px;
+    height: 50px;
+    border: solid 5px white;
+    box-sizing: border-box;
+    margin: 0 30px 10px 30px;
+    background-color: #ff863f;
+  }
+  .footer {
+    width: 200px;
+    background-color: #d98d30;
+  }
+}
