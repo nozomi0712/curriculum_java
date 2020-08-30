@@ -18,8 +18,8 @@ public class Pet {
 	}
 
 	public void introduce() {
-		System.out.println("■僕の名前は" + name + "です");
-		System.out.println("■ご主人様は" + masterName + "です");
+		System.out.println("■僕の名前は" + this.name + "です");
+		System.out.println("■ご主人様は" + this.masterName + "です");
 	}
 }
 
