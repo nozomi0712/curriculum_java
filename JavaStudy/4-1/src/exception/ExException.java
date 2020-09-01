@@ -23,7 +23,8 @@ public class ExException {
     private static final String CONST_COMMON_MSG_ERROR_EXCEPTION = "エラー: 入力値が不正です。";
     private static final String CONST_MSG_NOT_EXCEPTION_TRIGGER = "例外の発生しないパラメーターです。";
     private static final String CONST_MSG_NULLPO = "ヌルポです。";
-    @SuppressWarnings("resource")
+	private static final String Null = null;
+
 	public static void main(String[] args) {
         // 変数定義
         int parameter;
@@ -48,7 +49,7 @@ public class ExException {
                     // 問①: 強制的に「NullPointerException」を発生させるメソッドを作成し、呼び出しなさい。
                     // 問①は最下部にもあります。
                     // ルール: ここへ作成したメソッドを呼び出す
-                	throw new NullPointerException(CONST_MSG_NULLPO);
+                	npe();
                 case CONST_EXCEPTION_TRIGER_ARRAY_OUT_OF_BOUNDS:
                     // 問②: 「throw」を使用せずに「ArrayIndexOutOfBoundsException」を発生させる処理を記述しなさい。
                     // Tips: ご自身で配列を準備してください（使用する配列の型、要素数は自由）
@@ -65,7 +66,7 @@ public class ExException {
                     break;
                 }
             } catch (NullPointerException e) {
-                printException(e);
+            	printException(e);
             } catch (ArrayIndexOutOfBoundsException e) {
                 printException(e);
             // 問③: クラスキャストの例外をキャッチしなさい。
@@ -85,7 +86,9 @@ public class ExException {
      * ルール1: private static void 任意のメソッド名 throws 上位へ投げるExceptionクラス名 { NullPointerExceptionを発生させる処理 }
      * ルール2: 例外発生時に設定するメッセージは、定義済みの定数から適当なものを指定してください。
      */
-    // ここへ記述
+    private static void npe() throws NullPointerException {
+    	throw new NullPointerException(CONST_MSG_NULLPO);
+    }
     /**
      * 例外処理のメッセージを出力
      *
